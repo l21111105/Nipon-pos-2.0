@@ -75,6 +75,13 @@ img {
   border-radius: 8px;
 }
 
+/* Miniatura de video con efecto hover */
+section a img:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
 /* Tabla */
 table {
   width: 100%;
