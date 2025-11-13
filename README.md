@@ -8,4 +8,4 @@ Para ver el contenido del archivo `datos.xml`, puedes abrirlo directamente en el
 
 ## Enlace del sitio publicado
 
-https://tuusuario.github.io/nipon-pos/
+[https://l21111105.github.io/Nipon-pos-2.0/]
