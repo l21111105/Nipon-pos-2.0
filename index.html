@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Nipon-pos | Recetario Japonés</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <header>
+    <h1 id="titulo">Nipon-pos</h1>
+    <nav aria-label="Navegación principal">
+      <ul>
+        <li><a href="#">Menú</a></li>
+        <li><a href="#">Horario</a></li>
+        <li><a href="#">Contacto</a></li>
+        <li><a href="#">Ver catálogo</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main role="main">
+    <section class="intro">
+      <h2>Bienvenido</h2>
+      <p>Explora los postres tradicionales de Japón. Este sitio es parte de una práctica académica sobre desarrollo web.</p>
+    </section>
+
+    <section class="postres">
+      <h2>Postres destacados</h2>
+      <div class="grid">
+        <div class="item">
+          <h3>🍵 Mochi</h3>
+          <img src="https://upload.wikimedia.org/wikipedia/commons/6/6f/Mochi_ice_cream.jpg" alt="Mochi">
+          <p>Pastelito de arroz glutinoso relleno de anko o helado.</p>
+        </div>
+        <div class="item">
+          <h3>🍰 Dorayaki</h3>
+          <img src="https://upload.wikimedia.org/wikipedia/commons/1/1b/Dorayaki.jpg" alt="Dorayaki">
+          <p>Dos pancakes rellenos de pasta de frijol rojo.</p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Tabla de ingredientes comunes</h2>
+      <table>
+        <tr><th>Ingrediente</th><th>Uso</th></tr>
+        <tr><td>Harina de arroz</td><td>Mochi, Daifuku</td></tr>
+        <tr><td>Anko</td><td>Dorayaki, Daifuku</td></tr>
+      </table>
+    </section>
+
+    <section>
+      <h2>Video cultural</h2>
+      <iframe width="300" height="200" src="https://www.youtube.com/embed/1g3wJX0z7pA" title="Postres japoneses" allowfullscreen></iframe>
+    </section>
+
+    <section>
+      <h2>Formulario de contacto</h2>
+      <form aria-label="Formulario de contacto">
+        <label>Nombre:<br><input type="text" name="nombre" required></label><br>
+        <label>Correo electrónico:<br><input type="email" name="correo" required></label><br>
+        <label>Asunto:<br><input type="text" name="asunto" pattern="[A-Za-z\s]{3,}" required></label><br>
+        <label>Mensaje:<br><textarea name="mensaje" rows="4" required></textarea></label><br>
+        <label>Tipo de consulta:<br>
+          <select name="tipo">
+            <option value="general">General</option>
+            <option value="pedido">Pedido</option>
+            <option value="sugerencia">Sugerencia</option>
+          </select>
+        </label><br>
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+
+    <section>
+      <h2>Imagen del local</h2>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/4/4e/Japanese_dessert_shop.jpg" alt="Local de postres japoneses" width="300">
+    </section>
+
+    <section class="conclusion">
+      <h2>Conclusión</h2>
+      <p>Este proyecto demuestra el uso de HTML5, CSS y GitHub Pages para crear una aplicación web informativa, accesible y responsive.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Nipon-pos. Proyecto estudiantil.</p>
+  </footer>
+</body>
+</html>
